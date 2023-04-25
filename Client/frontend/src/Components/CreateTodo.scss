@@ -1,0 +1,49 @@
+.creator {
+  width: 31%;
+  height: 12%;
+  // border: 1px solid blue;
+  background-color: #25273c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+  .formTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+
+    .trash{
+      cursor: pointer;
+
+    }
+    .trash:hover{
+      color: rgb(250, 39, 39);
+    }
+  }
+
+  .checkbox {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    // border: 2px solid red;
+    
+    .empty {
+      border: 2px solid #74768b;
+      width: 27px;
+      height:  27px;
+      border-radius: 50%;
+    }
+
+    .check {
+       
+        font-size: 30px;
+    }
+  }
+}
